@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background: gray;
+    width: 100wh;
+    height: 100vh;
+}
+
+nav {
+    height: 150px;
+    grid-row: 1;
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    background: white;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    grid-column: 2;
+}
+
+.nav-item-1 {
+    grid-column: 5;
+} 
+
+.nav-item-2 {
+    grid-column: 7;
+} 
+
+.nav-item-3 {
+    grid-column: 9;
+} 
+
+.nav-item-4 {
+    grid-column: 11;
+} 
+
+main {
+    grid-column: 5 / 12;
+    grid-row: 4 / 11;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    
+}
+
+.btn-1 {
+    grid-column: 5 / 7;
+    grid-row: 3 / 4;
+    width: 240px;
+    height: 147px;
+}
+
+.btn-2 {
+    grid-column: 5 / 7;
+    grid-row: 5 / 6;
+    width: 240px;
+    height: 147px;
+}
+
+aside {
+    grid-column: 2 / 4;
+    grid-row: 4 / 11;
+    background: white;
+}
+
+.sidenav {
+  list-style: none;
+}
+
+footer {
+    grid-column: 1 / 13;
+    grid-row: 12;
+    background: white;
+}
+
+button {
+    background: #D9D9D9;
+    border-radius: 100px;
+}
+
