@@ -8,6 +8,7 @@ body {
     background: gray;
     width: 100wh;
     height: 100vh;
+    overflow: scroll;
 }
 
 nav {
@@ -64,6 +65,65 @@ main {
     grid-row: 5 / 6;
     width: 240px;
     height: 147px;
+}
+
+.aboutme {
+    grid-column: 1 / 13;
+    grid-row: 2 / 13;
+    background: white;
+    display: grid;
+    height: 1177px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin: 0;
+    padding: 0;
+}
+
+#abouth1 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    width: 230px;
+    height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+#abouth2 {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    width: 319px;
+    height: 60px;
+    left: 321px;
+    top: 502px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#aboutp {
+    grid-column: 2 / 6;
+    grid-row: 3 / 6;
+    text-align: center;
+}
+
+#aboutimg {
+    grid-column: 6 / 11;
+    grid-row: 1 / 6;
+    width: 600px;
+    height: 738px;
+}
+
+.gallery {
+    height: 443px;
+    background: grey;
+    grid-row: 7 / 13;
+    grid-column: 3 / 11;
 }
 
 aside {
