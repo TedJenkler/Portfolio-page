@@ -1,0 +1,20 @@
+#popup-site {
+    background-image: url(./images/popup-rating-app.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#popup-btn-1 {
+    grid-column: 5 / 7;
+    grid-row: 3 / 4;
+    width: 240px;
+    height: 147px;
+}
+
+#popup-btn-2 {
+    grid-column: 5 / 7;
+    grid-row: 5 / 6;
+    width: 240px;
+    height: 147px;
+}
